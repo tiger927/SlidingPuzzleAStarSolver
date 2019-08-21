@@ -24,7 +24,7 @@ public class Main {
 			if(hs.contains(tmp)) continue;
 			hs.add(tmp);
 			if(cur.Calc() == 0) {
-				System.out.println("After iterating through " + counter + " statues, we found the solution in " + cur.scoreG + " steps!");
+				System.out.println("After iterating through " + counter + " statues, we found the solution in " + cur.scoreG / 3 + " steps!");
 				fina = cur;
 				break;
 			}
