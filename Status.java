@@ -70,7 +70,7 @@ public class Status implements Comparable<Status>{
 	@Override
 	public int compareTo(Status o) {
 		//It seems that changing this formula can greatly help the performance of this algorithm
-		return (2 * this.Calc() + this.scoreG - 2 * o.Calc() - o.scoreG);
+		return (4 * this.Calc() + this.scoreG - 4 * o.Calc() - o.scoreG);
 	}
 	
 	
